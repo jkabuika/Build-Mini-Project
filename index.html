@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <section>
       <nav>
-        <img src="./Assets/FES.svg" alt="" />
+        <img src="./Assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -17,7 +19,7 @@
         </ul>
       </nav>
       <header>
-        <div>
+        <div class="row">
           <h1>Best place to learn Frontend</h1>
           <p>
             Go from an absolute begginner to a pro with a simplified process
@@ -33,23 +35,25 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            aspernatur minima eum excepturi quo commodi quam nesciunt mollitia
-            provident, tempore enim necessitatibus vel in delectus voluptates ad
-            natus, beatae voluptate!!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-            distinctio accusantium quod itaque. Officiis sunt perferendis dolor,
-            hic assumenda optio dicta quod, nam recusandae nihil ex commodi
-            magni consectetur ab!!
-          </p>
+        <div class="section__description">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam aspernatur minima eum excepturi quo commodi quam
+              nesciunt mollitia provident, tempore enim necessitatibus vel in
+              delectus voluptates ad natus, beatae voluptate!!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+              distinctio accusantium quod itaque. Officiis sunt perferendis
+              dolor, hic assumenda optio dicta quod, nam recusandae nihil ex
+              commodi magni consectetur ab!!
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./Assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./Assets/about.jpg" alt="" />
-        </figure>
       </section>
 
       <section id="discord">
@@ -58,29 +62,39 @@
           <img src="./Assets/discord.png" alt="" />
         </figure>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dignissimos a saepe provident id. Omnis consectetur eligendi magnam laboriosam, deleniti ullam quae, voluptatem cumque, quaerat reiciendis vero odio totam repellendus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto doloremque iure quae quisquam, quos obcaecati animi minus sit est expedita aut sunt quo, eos explicabo, consequuntur deserunt similique pariatur ratione.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+            dignissimos a saepe provident id. Omnis consectetur eligendi magnam
+            laboriosam, deleniti ullam quae, voluptatem cumque, quaerat
+            reiciendis vero odio totam repellendus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            doloremque iure quae quisquam, quos obcaecati animi minus sit est
+            expedita aut sunt quo, eos explicabo, consequuntur deserunt
+            similique pariatur ratione.
+          </p>
         </div>
       </section>
 
       <section id="contact">
-      <h2>Contact</h2>
-      <form action="">
-        <label for="Email">Email</label>
-        <input type="Email"Email>
-        <label for="Text">Message<Textarea rows="8"></Textarea></label>
-      </form>
-    </section>
+        <h2>Contact</h2>
+        <form action="">
+          <label for="Email">Email</label>
+          <input type="Email" Email />
+          <label for="Text">Message<textarea rows="8"></textarea></label>
+        </form>
+      </section>
     </main>
     <footer>
-        <img src="./Assets/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
-        </div>
-        <p>Copyright Frontend Simplified</p>
+      <img src="./Assets/FES.svg" alt="" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
     </footer>
   </body>
 </html>
