@@ -20,79 +20,90 @@
       </nav>
       <header>
         <div class="row">
-          <h1>Best place to learn Frontend</h1>
-          <p>
-            Go from an absolute begginner to a pro with a simplified process
-          </p>
-          <button>Start now</button>
-        </div>
-        <figure>
+          <div>
+            <h1>Best place to learn Frontend</h1> 
+            <p class="subheader">
+              Go from an absolute begginner to a pro with a simplified process
+            </p> 
+              <button>Start now</button>
+          </div>
+          <figure>
           <img src="./Assets/laptop.png" alt="Home page image" />
-        </figure>
+          </figure>
+        </div>
       </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div>
-            <p>
+        <div class="row"> 
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam aspernatur minima eum excepturi quo commodi quam
               nesciunt mollitia provident, tempore enim necessitatibus vel in
               delectus voluptates ad natus, beatae voluptate!!
-            </p>
-            <p>
+              </p>
+              <p class="section__description--para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
               distinctio accusantium quod itaque. Officiis sunt perferendis
               dolor, hic assumenda optio dicta quod, nam recusandae nihil ex
               commodi magni consectetur ab!!
-            </p>
-          </div>
-          <figure class="about__img--wrapper">
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
             <img src="./Assets/about.jpg" alt="" />
-          </figure>
-        </div>
+            </figure>
+          </div>
+        </div>  
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <figure>
-          <img src="./Assets/discord.png" alt="" />
-        </figure>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-            dignissimos a saepe provident id. Omnis consectetur eligendi magnam
-            laboriosam, deleniti ullam quae, voluptatem cumque, quaerat
-            reiciendis vero odio totam repellendus.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-            doloremque iure quae quisquam, quos obcaecati animi minus sit est
-            expedita aut sunt quo, eos explicabo, consequuntur deserunt
-            similique pariatur ratione.
-          </p>
-        </div>
+        <div class="row"></div>
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+            <img src="./Assets/discord.png" alt="" />
+            </figure>
+            <div>
+              <p class="section__description--para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              dignissimos a saepe provident id. Omnis consectetur eligendi magnam
+              laboriosam, deleniti ullam quae, voluptatem cumque, quaerat
+              reiciendis vero odio totam repellendus.
+              </p>
+              <p class="section__description--para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              doloremque iure quae quisquam, quos obcaecati animi minus sit est
+              expedita aut sunt quo, eos explicabo, consequuntur deserunt
+              similique pariatur ratione.
+              </p>
+            </div>
+          </div>
+        </div>    
       </section>
 
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-          <label for="Email">Email</label>
-          <input type="Email" Email />
-          <label for="Text">Message<textarea rows="8"></textarea></label>
+          <span>Email</span>
+          <input type="email" placeholder="jane@example.com">
+          <span>Message</span>
+          <textarea type="text" placeholder="Write your message"></textarea>
+          <button>Contact Us</button>
         </form>
       </section>
     </main>
+
     <footer>
-      <img src="./Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__links" href="#about">About</a>
+        <a class="footer__links" href="#discord">Discord</a>
+        <a class="footer__links" href="#contact">Contact</a>
+        <a class="footer__links" href="">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
