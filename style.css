@@ -184,3 +184,34 @@ footer {
 .footer__link {
     padding: 0 16px;
 }
+
+/* SMART PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px){
+    .row {flex-direction: column;
+    }
+}
+
+.home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__description--button {
+    max-width: 240px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28px;
+}
+
+ul {
+    display: none;
+}
